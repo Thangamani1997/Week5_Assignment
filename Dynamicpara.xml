@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DynamicParameter" verbose="5">
+	<parameter name="url" value="https://login.salesforce.com"></parameter>
+  <test thread-count="5" name="salesforce">
+	<parameter name="uname" value="dilip@testleaf.com"></parameter>
+	<parameter name="pwd" value="testleaf@2024"></parameter>
+    <classes>
+      <class name="week5.Ass.Day2.Dynamicpara"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
